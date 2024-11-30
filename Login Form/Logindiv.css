@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    background: url(image1.png) no-repeat center/cover;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    display: flex;
+}
+
+.bg{
+    background: rgba(255,255,255,0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+input{
+    width: 100%;
+    padding: 3px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+button{
+    background-color: rgb(66, 139, 66);
+    color: white;
+    cursor: pointer;
+}
